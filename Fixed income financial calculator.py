@@ -21,6 +21,6 @@ for x in range(1, n + 1):
 
 total_contribution = contribution * n + v_ini0
 yield_fi = vf - total_contribution
-print(f'\nO valor final é: $ {vf:,.2f}')
+print(f'Final amount: $ {vf:,.2f}')
 print(f'Total contribution: $ {total_contribution:,.2f}')
 print(f'Total yield: $ {yield_fi:,.2f}')
